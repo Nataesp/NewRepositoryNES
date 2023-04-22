@@ -1,0 +1,36 @@
+git --version 		Ver la versión de git	
+
+git init           		Iniciar GIT
+
+git status    		Ver el estado
+
+git add file    		Agrega el archivo file
+
+git add --all		Agrega todos los archivos
+
+git commit 		Comitar, actualizar los datos en el staging área, se agrega un mensaje con la tecla i, se sale con esc luego :wq
+
+git commit -m "Mensaje"    Se comitea y se agrega un mensaje
+
+git  config --global user.email fulanito@email.com	Se agrega correo
+
+git  config --global user.name "Username"       Se agrega nombre
+
+git log			Muestra el hisotrial de los commit
+
+git checkout –		Revertir los cambios en archivos
+
+git diff file		Muestra cambios
+
+git branch 		Muestra las ramas
+
+git branch rama1	Crea una rama llamada rama1
+
+git checkout rama1	Me muevo a la rama1
+
+ 
+Se crea una cuenta en git hub
+se abre un nuevo repositorio
+se copia la url o la línea que dice:
+git remote add origin url
+git push u origin master     Con esta línea se empuja el contenido en el repositorio
